@@ -1,0 +1,67 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background: repeating-linear-gradient(rgb(81, 212, 245), rgba(77, 154, 255, 0.877) 15px, white 30px);
+    margin: 0px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family:cursive;
+}
+
+a:link{
+    color:cornsilk;
+}
+a:visited{
+    color: cornsilk;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration:none;
+}
+
+.bodyimg{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.bodyimg2{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
